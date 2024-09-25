@@ -3,53 +3,56 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitBackupServer", "GitBackupServer\GitBackupServer.csproj", "{22097BAE-2172-4E99-822A-2E31CF84AC55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitBackupServer", "GitBackupServer\GitBackupServer.csproj", "{22097BAE-2172-4E99-822A-2E31CF84AC55}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SystemTools", "SystemTools", "{98F749E7-401A-430C-B8F8-B1A3F92D43F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemToolsShared", "..\SystemTools\SystemToolsShared\SystemToolsShared.csproj", "{47C01213-1D0A-4BD6-9B5B-916F213D6FB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystemToolsShared", "..\SystemTools\SystemToolsShared\SystemToolsShared.csproj", "{47C01213-1D0A-4BD6-9B5B-916F213D6FB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingAbstractions", "..\SystemTools\MessagingAbstractions\MessagingAbstractions.csproj", "{97D3F634-7BB4-41B7-9300-67864C9B9B04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagingAbstractions", "..\SystemTools\MessagingAbstractions\MessagingAbstractions.csproj", "{97D3F634-7BB4-41B7-9300-67864C9B9B04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiContracts", "..\SystemTools\ApiContracts\ApiContracts.csproj", "{A91A08A4-D686-4878-BDED-1A2CBD059DB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiContracts", "..\SystemTools\ApiContracts\ApiContracts.csproj", "{A91A08A4-D686-4878-BDED-1A2CBD059DB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReCounterContracts", "..\SystemTools\ReCounterContracts\ReCounterContracts.csproj", "{B21733B2-38FD-444E-8613-433FB4FF7C1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReCounterContracts", "..\SystemTools\ReCounterContracts\ReCounterContracts.csproj", "{B21733B2-38FD-444E-8613-433FB4FF7C1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReCounterDom", "..\SystemTools\ReCounterDom\ReCounterDom.csproj", "{8B5284CC-C438-49D8-A197-BAA4BD81ED25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReCounterDom", "..\SystemTools\ReCounterDom\ReCounterDom.csproj", "{8B5284CC-C438-49D8-A197-BAA4BD81ED25}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebSystemTools", "WebSystemTools", "{FD19E10A-996E-4B9B-A776-98AB6595D610}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebInstallers", "..\WebSystemTools\WebInstallers\WebInstallers.csproj", "{D1728AFD-4D0D-480F-8DFF-FB215C138514}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebInstallers", "..\WebSystemTools\WebInstallers\WebInstallers.csproj", "{D1728AFD-4D0D-480F-8DFF-FB215C138514}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiKeysManagement", "..\SystemTools\ApiKeysManagement\ApiKeysManagement.csproj", "{29768727-948D-4316-93F9-AE41B8536DD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiKeysManagement", "..\SystemTools\ApiKeysManagement\ApiKeysManagement.csproj", "{29768727-948D-4316-93F9-AE41B8536DD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRMessages", "..\WebSystemTools\SignalRMessages\SignalRMessages.csproj", "{95F39F28-9F62-497E-AF5C-637E349177DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRMessages", "..\WebSystemTools\SignalRMessages\SignalRMessages.csproj", "{95F39F28-9F62-497E-AF5C-637E349177DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiExceptionHandler", "..\WebSystemTools\ApiExceptionHandler\ApiExceptionHandler.csproj", "{8206D176-4A29-46FE-826E-29154FBDF34C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiExceptionHandler", "..\WebSystemTools\ApiExceptionHandler\ApiExceptionHandler.csproj", "{8206D176-4A29-46FE-826E-29154FBDF34C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestToolsData", "..\WebSystemTools\TestToolsData\TestToolsData.csproj", "{94171E00-1547-4B53-A77B-543F62397963}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestToolsData", "..\WebSystemTools\TestToolsData\TestToolsData.csproj", "{94171E00-1547-4B53-A77B-543F62397963}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApiContracts", "..\SystemTools\TestApiContracts\TestApiContracts.csproj", "{4E38CD9C-7F67-4C4C-90F6-C3F7F9A025FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApiContracts", "..\SystemTools\TestApiContracts\TestApiContracts.csproj", "{4E38CD9C-7F67-4C4C-90F6-C3F7F9A025FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestToolsApi", "..\WebSystemTools\TestToolsApi\TestToolsApi.csproj", "{B37A28E5-2ED7-41A3-844D-CED40D1BA7F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestToolsApi", "..\WebSystemTools\TestToolsApi\TestToolsApi.csproj", "{B37A28E5-2ED7-41A3-844D-CED40D1BA7F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticFilesTools", "..\WebSystemTools\StaticFilesTools\StaticFilesTools.csproj", "{A44DF99D-BEB1-4791-8E9E-DC3BD071FBB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticFilesTools", "..\WebSystemTools\StaticFilesTools\StaticFilesTools.csproj", "{A44DF99D-BEB1-4791-8E9E-DC3BD071FBB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationEncrypt", "..\WebSystemTools\ConfigurationEncrypt\ConfigurationEncrypt.csproj", "{0797A610-F619-4FE5-A853-74BE16AEC4B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigurationEncrypt", "..\WebSystemTools\ConfigurationEncrypt\ConfigurationEncrypt.csproj", "{0797A610-F619-4FE5-A853-74BE16AEC4B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogLogger", "..\WebSystemTools\SerilogLogger\SerilogLogger.csproj", "{148FE732-4CAE-4C30-A5A1-87D24D7E7FAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerilogLogger", "..\WebSystemTools\SerilogLogger\SerilogLogger.csproj", "{148FE732-4CAE-4C30-A5A1-87D24D7E7FAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerTools", "..\WebSystemTools\SwaggerTools\SwaggerTools.csproj", "{9BF44440-ED06-48E6-A0C3-5139BB96625D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerTools", "..\WebSystemTools\SwaggerTools\SwaggerTools.csproj", "{9BF44440-ED06-48E6-A0C3-5139BB96625D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsServiceTools", "..\WebSystemTools\WindowsServiceTools\WindowsServiceTools.csproj", "{1E33773A-4126-4893-A062-FD8CD956795C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowsServiceTools", "..\WebSystemTools\WindowsServiceTools\WindowsServiceTools.csproj", "{1E33773A-4126-4893-A062-FD8CD956795C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitBackupServerApi", "GitBackupServerApi\GitBackupServerApi.csproj", "{4FE7ED26-5FC6-44C5-8F32-0893827B92A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitBackupServerContracts", "GitBackupServerContracts", "{E1A1C656-06CB-469C-BFFC-E520A492FF0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitBackupServerApiContracts", "GitBackupServerContracts\GitBackupServerApiContracts\GitBackupServerApiContracts.csproj", "{177AAE16-C3AE-4DBE-99B5-40FC7DDAA75A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{22097BAE-2172-4E99-822A-2E31CF84AC55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -124,6 +127,17 @@ Global
 		{1E33773A-4126-4893-A062-FD8CD956795C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E33773A-4126-4893-A062-FD8CD956795C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E33773A-4126-4893-A062-FD8CD956795C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FE7ED26-5FC6-44C5-8F32-0893827B92A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE7ED26-5FC6-44C5-8F32-0893827B92A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FE7ED26-5FC6-44C5-8F32-0893827B92A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FE7ED26-5FC6-44C5-8F32-0893827B92A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{177AAE16-C3AE-4DBE-99B5-40FC7DDAA75A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{177AAE16-C3AE-4DBE-99B5-40FC7DDAA75A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{177AAE16-C3AE-4DBE-99B5-40FC7DDAA75A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{177AAE16-C3AE-4DBE-99B5-40FC7DDAA75A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{47C01213-1D0A-4BD6-9B5B-916F213D6FB8} = {98F749E7-401A-430C-B8F8-B1A3F92D43F4}
@@ -143,5 +157,9 @@ Global
 		{148FE732-4CAE-4C30-A5A1-87D24D7E7FAF} = {FD19E10A-996E-4B9B-A776-98AB6595D610}
 		{9BF44440-ED06-48E6-A0C3-5139BB96625D} = {FD19E10A-996E-4B9B-A776-98AB6595D610}
 		{1E33773A-4126-4893-A062-FD8CD956795C} = {FD19E10A-996E-4B9B-A776-98AB6595D610}
+		{177AAE16-C3AE-4DBE-99B5-40FC7DDAA75A} = {E1A1C656-06CB-469C-BFFC-E520A492FF0B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {405C016B-7782-47A4-8260-B6C394D67B01}
 	EndGlobalSection
 EndGlobal
