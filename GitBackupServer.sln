@@ -43,11 +43,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerTools", "..\WebSyste
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowsServiceTools", "..\WebSystemTools\WindowsServiceTools\WindowsServiceTools.csproj", "{1E33773A-4126-4893-A062-FD8CD956795C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitBackupServerApi", "GitBackupServerApi\GitBackupServerApi.csproj", "{4FE7ED26-5FC6-44C5-8F32-0893827B92A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitBackupServerApi", "GitBackupServerApi\GitBackupServerApi.csproj", "{4FE7ED26-5FC6-44C5-8F32-0893827B92A9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitBackupServerContracts", "GitBackupServerContracts", "{E1A1C656-06CB-469C-BFFC-E520A492FF0B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitBackupServerShared", "GitBackupServerShared", "{E1A1C656-06CB-469C-BFFC-E520A492FF0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitBackupServerApiContracts", "GitBackupServerContracts\GitBackupServerApiContracts\GitBackupServerApiContracts.csproj", "{177AAE16-C3AE-4DBE-99B5-40FC7DDAA75A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitBackupServerContracts", "..\GitBackupServerShared\GitBackupServerContracts\GitBackupServerContracts.csproj", "{24C0C81F-73CD-4F71-8418-0A0C46BF5153}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -131,10 +131,10 @@ Global
 		{4FE7ED26-5FC6-44C5-8F32-0893827B92A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FE7ED26-5FC6-44C5-8F32-0893827B92A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FE7ED26-5FC6-44C5-8F32-0893827B92A9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{177AAE16-C3AE-4DBE-99B5-40FC7DDAA75A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{177AAE16-C3AE-4DBE-99B5-40FC7DDAA75A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{177AAE16-C3AE-4DBE-99B5-40FC7DDAA75A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{177AAE16-C3AE-4DBE-99B5-40FC7DDAA75A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C0C81F-73CD-4F71-8418-0A0C46BF5153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C0C81F-73CD-4F71-8418-0A0C46BF5153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C0C81F-73CD-4F71-8418-0A0C46BF5153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C0C81F-73CD-4F71-8418-0A0C46BF5153}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -157,7 +157,7 @@ Global
 		{148FE732-4CAE-4C30-A5A1-87D24D7E7FAF} = {FD19E10A-996E-4B9B-A776-98AB6595D610}
 		{9BF44440-ED06-48E6-A0C3-5139BB96625D} = {FD19E10A-996E-4B9B-A776-98AB6595D610}
 		{1E33773A-4126-4893-A062-FD8CD956795C} = {FD19E10A-996E-4B9B-A776-98AB6595D610}
-		{177AAE16-C3AE-4DBE-99B5-40FC7DDAA75A} = {E1A1C656-06CB-469C-BFFC-E520A492FF0B}
+		{24C0C81F-73CD-4F71-8418-0A0C46BF5153} = {E1A1C656-06CB-469C-BFFC-E520A492FF0B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {405C016B-7782-47A4-8260-B6C394D67B01}
