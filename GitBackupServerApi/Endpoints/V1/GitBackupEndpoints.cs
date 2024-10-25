@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using GitBackupServerContracts.V1.Routes;
 using Microsoft.AspNetCore.Builder;
 using WebInstallers;
 
@@ -23,8 +24,8 @@ public sealed class GitBackupEndpoints : IInstaller
         if (debugMode)
             Console.WriteLine($"{GetType().Name}.{nameof(UseServices)} Started");
 
-        //var group = app.MapGroup(DatabaseApiRoutes.ApiBase + DatabaseApiRoutes.Database.DatabaseBase)
-        //    .RequireAuthorization();
+        var group = app.MapGroup(GitBackupServerApiRoutes.ApiBase + GitBackupServerApiRoutes.GitRoute.GitBase)
+            .RequireAuthorization();
 
         //group.MapPost(DatabaseApiRoutes.Database.CheckRepairDatabase, CheckRepairDatabase);
         //group.MapPost(DatabaseApiRoutes.Database.CreateBackup, CreateBackup);
