@@ -10,7 +10,7 @@
         <ProjectReference Include="..\..\WebSystemTools\WindowsServiceTools\WindowsServiceTools.csproj" />
     </ItemGroup>
     <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
+        <TargetFramework>net9.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>disable</ImplicitUsings>
         <UserSecretsId>727ca996-c94d-435f-aa73-e2568e4d697c</UserSecretsId>
